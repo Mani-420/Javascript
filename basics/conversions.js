@@ -13,14 +13,14 @@ console.log(valueInNumber);
 // "33abc" => NaN
 //  true => 1; false => 0
 
-let isLoggedIn = "hitesh"
+let isLoggedIn = "Mani"
 
 let booleanIsLoggedIn = Boolean(isLoggedIn)
 //  console.log(booleanIsLoggedIn);
 
 // 1 => true; 0 => false
 // "" => false
-// "hitesh" => true
+// "Mani" => true
 
 let someNumber = 33
 
@@ -42,7 +42,7 @@ let negValue = -value
 // console.log(2%3);
 
 let str1 = "hello"
-let str2 = " hitesh"
+let str2 = " Mani"
 
 let str3 = str1 + str2
 // console.log(str3);
