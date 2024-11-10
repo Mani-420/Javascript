@@ -47,6 +47,7 @@ function addone(num){
     return num + 1
 }
 
+// Arrow function
 
 const addTwo = function(num){
     return num + 2
