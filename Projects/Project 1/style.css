@@ -1,0 +1,55 @@
+html {
+    margin: 0;
+}
+  
+span {
+    display: block;
+}
+
+.canvas {
+    margin: 100px auto 100px;
+    width: 80%;
+    text-align: center;
+}
+  
+.button {
+    width: 100px;
+    height: 100px;
+    border: solid black 2px;
+    display: inline-block;
+}
+
+.button:hover{
+    box-shadow: 0px 5px 14px rgba(0, 0, 0, 0.3);
+} 
+  
+#grey {
+    background: grey;
+}
+
+#white {
+    background: white;
+}
+
+#blue {
+    background: blue;
+}
+
+#yellow {
+    background: yellow;
+}
+
+@media (max-width: 550px) {
+    .button {
+        width: calc(50% - 10px); /* Adjust width for two boxes per row */
+        margin: 5px auto; /* Center-align boxes */
+    }
+}
+
+/* Media query for width less than 300px: One box per row */
+@media (max-width: 300px) {
+    .button {
+        width: calc(100% - 10px); /* Adjust width for one box per row */
+        margin: 5px auto; /* Center-align boxes */
+    }
+}
