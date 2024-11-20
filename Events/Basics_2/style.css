@@ -1,0 +1,12 @@
+body{
+    background-color: gray;
+}
+
+.container{
+    align-items: center;
+    justify-items: center;
+}
+
+h1{
+    color: aliceblue;
+}
