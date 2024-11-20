@@ -1,0 +1,9 @@
+body{
+    background-color: gray;
+    color: white;
+}
+
+.container{
+    justify-items: center;
+    align-items: center;
+}
