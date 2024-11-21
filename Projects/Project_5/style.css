@@ -1,0 +1,18 @@
+body{
+    background-color: #212121;
+    color: #fff"
+}
+
+.container{
+    justify-items: center;
+    align-items: center;
+}
+
+a{
+    color: #fff;
+    text-decoration: none;
+}
+
+h1{
+    color: #fff;
+}
