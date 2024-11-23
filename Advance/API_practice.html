@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body style="background-color: #212121; color: aliceblue;">
+    Abdul Rehman Tahir github image and login.
+</body>
+<script>
+    const requestUrl = 'https://api.github.com/users/Mani-420'
+    const xhr = new XMLHttpRequest();
+    xhr.open('GET', requestUrl)
+    xhr.onreadystatechange = function(){
+        console.log(xhr.readyState);
+        if (xhr.readyState === 4 && xhr.status === 200) {
+            const data = JSON.parse(this.responseText)
+            console.log(data);
+
+            const container = document.createElement('div')
+            container.className = "container"
+
+            const profileImage = document.createElement('img')
+            profileImage.src = data.avatar_url;
+            profileImage.alt = "Github Profile Picture"
+            profileImage.style.width = "150px"
+            profileImage.style.borderRadius = "25px"
+            
+            const profileName = document.createElement('h2')
+            profileName.textContent = data.login
+
+            container.appendChild(profileImage)
+            container.appendChild(profileName)
+
+            document.body.appendChild(container)
+        }
+    }
+    xhr.send();
+</script>
+</html>
