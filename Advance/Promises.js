@@ -43,14 +43,14 @@ const promiseFour = new Promise(function(resolve, reject){
 })
 
 promiseFour
-.then((user) => {
-    console.log(user);
-    return user.username
-}).then((username) => {
-    console.log(username);
-}).catch(function(error){
-    console.log(error);
-}).finally(() => console.log("The promise is either resolved or rejected"))
+    .then((user) => {
+        console.log(user);
+        return user.username
+    }).then((username) => {
+        console.log(username);
+    }).catch(function(error){
+        console.log(error);
+    }).finally(() => console.log("The promise is either resolved or rejected"))
 
 
 
