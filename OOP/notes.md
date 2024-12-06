@@ -18,7 +18,7 @@ Object Literal
 - Instances
 
 ## 4 Pillars
-Abstraction (Hides complexity)
-Encapsulation (Wrapping Data or Protects data)
-Inheritance (Sharing properties)
-Polymorphism (Enhances flexibility)
+- Abstraction (Hides complexity)
+- Encapsulation (Wrapping Data or Protects data)
+- Inheritance (Sharing properties)
+- Polymorphism (Enhances flexibility)
